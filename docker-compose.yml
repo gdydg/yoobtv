@@ -1,0 +1,8 @@
+version: '3'
+services:
+  iptv-server:
+    build: .
+    container_name: my-iptv-source
+    ports:
+      - "5000:5000"
+    restart: always
